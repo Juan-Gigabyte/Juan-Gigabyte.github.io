@@ -4,6 +4,11 @@ body {
   background: #f1f1f1;
 }
 
+@font-face{
+  font-family: "Science Fair";
+  src: url("fonts/ScienceFair-Vyv6.otf");
+}
+
 .header {
   padding: 30px;
   font-size: 40px;
