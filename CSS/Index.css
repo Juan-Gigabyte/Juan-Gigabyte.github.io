@@ -16,6 +16,14 @@ body {
   background: white;
 }
 
+h3{
+  text-align: center;
+}
+
+.card p{
+  text-align: center;
+}
+
 .leftcolumn { 
   float: left;
   width: 63.3%;
