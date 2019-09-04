@@ -1,12 +1,22 @@
 body {
   font-family: Arial;
-  padding: 20px;
-  background: #f1f1f1;
+  background: grey;
 }
 
 @font-face{
   font-family: "Science Fair";
   src: url("fonts/ScienceFair-Vyv6.otf");
+}
+
+.parallax {
+  background-image: url('/home/jfgarza/Documents/Work/Diverciencia/K1ngCrims0n.github.io/imgs/cools.png');
+
+  height: 200px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
