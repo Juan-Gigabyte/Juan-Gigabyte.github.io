@@ -1,11 +1,45 @@
 body {
   font-family: Arial;
-  background: grey;
 }
 
 @font-face{
   font-family: "Science Fair";
-  src: url("fonts/ScienceFair-Vyv6.otf");
+  src: url("/K1ngCrims0n.github.io/fonts/ScienceFair-Vyv6.otf");
+}
+
+.modal {
+ display: none;
+ position: fixed;
+ z-index: 1;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ overflow: auto;
+ background-color: rgb(0,0,0);
+ background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+ background-color: #fefefe;
+ margin: 15% auto;
+ padding: 20px;
+ border: 1px solid #888;
+ width: 80%;
+}
+
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
 }
 
 .parallax {
@@ -24,44 +58,15 @@ body {
   font-size: 40px;
   text-align: center;
   background: white;
+  font-family: Science Fair;
 }
 
 h3, h2{
   text-align: center;
 }
 
-.card p{
+p{
   text-align: center;
-}
-
-.leftcolumn {
-  float: left;
-  width: 63.3%;
-}
-
-.rightcolumn {
-  float: left;
-  width: 35%;
-  padding-left: 20px;
-}
-
-
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .footer {
@@ -72,9 +77,6 @@ h3, h2{
 }
 
 @media screen and (max-width: 1000px) {
-    .leftcolumn, .rightcolumn {
-      width: 100%;
-      padding: 0;
     }
   }
 }
