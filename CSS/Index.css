@@ -1,10 +1,12 @@
-body {
-  font-family: Arial;
-}
-
 @font-face{
   font-family: "Science Fair";
   src: url("/K1ngCrims0n.github.io/fonts/ScienceFair-Vyv6.otf");
+}
+
+body {
+  font-family: Science Fair;
+  color: #802BB1;
+  background-color: #4C495D;
 }
 
 .modal {
@@ -43,9 +45,9 @@ body {
 }
 
 .parallax {
-  background-image: url('/K1ngCrims0n.github.io/imgs/cools.png');
+  background-image: url('/home/jfgarza/Documents/Work/Diverciencia/K1ngCrims0n.github.io/imgs/space.jpg');
 
-  height: 200px;
+  height: 500px;
 
   background-attachment: fixed;
   background-position: center;
@@ -54,10 +56,9 @@ body {
 }
 
 .header {
-  background-image: url("/K1ngCrims0n.github.io/imgs/cools.png");
   background-size: cover;
   position: relative;
-  height: 500px;
+  height: 300px;
   font-family: Science Fair;
 }
 
@@ -78,6 +79,7 @@ body {
 
 h3, h2{
   text-align: center;
+  padding: 50px;
 }
 
 p{
@@ -92,6 +94,10 @@ p{
 }
 
 @media screen and (max-width: 1000px) {
+    .card{
+      height: 500px;
+    }
+    .parallax{
+      height: 300px;
     }
   }
-}
