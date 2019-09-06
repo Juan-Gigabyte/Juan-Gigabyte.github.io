@@ -5,8 +5,9 @@
 
 body {
   font-family: Science Fair;
-  color: #802BB1;
   background-color: #4C495D;
+  padding:0;
+  margin:0;
 }
 
 .modal {
@@ -79,11 +80,13 @@ body {
 
 h3, h2{
   text-align: center;
+  color: #802BB1;
   padding: 50px;
 }
 
 p{
   text-align: center;
+  color: #D1D7E0;
 }
 
 .footer {
