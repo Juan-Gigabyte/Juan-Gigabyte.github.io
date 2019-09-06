@@ -43,6 +43,11 @@ body {
   mix-blend-mode: screen;
 }
 
+h1{
+  color: #D1D7E0;
+  text-align: center;
+}
+
 h3, h2{
   text-align: center;
   color: #802BB1;
@@ -57,19 +62,24 @@ p{
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: #4C495D;
   margin-top: 20px;
 }
 
 @media screen and (max-width: 1000px) {
-    .card{
-      height: 500px;
-    }
     p{
       font-size: 15px;
+    }
+    h2,h3{
+      padding-top: 30px;
+      padding-bottom: 0px;
+    }
+    .card{
+      height: 500px;
     }
     .parallax{
       height: 300px;
       background-attachment: scroll;
+      background-image: none;
     }
   }
