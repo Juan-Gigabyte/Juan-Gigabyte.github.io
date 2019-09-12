@@ -127,10 +127,15 @@ p{
 }
 
 .footer {
-  padding: 20px;
+	position: static;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+	margin: 40px auto 0px;
+	padding: 20px 0px;
   text-align: center;
   background: black;
-  margin-top: 40px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -141,6 +146,9 @@ p{
     h2,h3{
       padding-top: 30px;
       padding-bottom: 0px;
+    }
+    .tablink{
+      font-size: 10px;
     }
     .card{
       height: 500px;
