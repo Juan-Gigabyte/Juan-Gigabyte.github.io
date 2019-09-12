@@ -23,7 +23,7 @@ h1{
 
 h2{
   text-align: center;
-  color: #802BB1;
+  color: white;
   padding: 10px;
 }
 
@@ -129,8 +129,8 @@ p{
 .footer {
   padding: 20px;
   text-align: center;
-  background: #564F6F;
-  margin-top: 20px;
+  background: black;
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -148,7 +148,6 @@ p{
     .parallax{
       height: 300px;
       background-attachment: scroll;
-      background-image: none;
     }
     .leftcolumn, .rightcolumn {
       width: 100%;
