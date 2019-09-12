@@ -3,9 +3,15 @@
   src: url("/K1ngCrims0n.github.io/fonts/ScienceFair-Vyv6.otf");
 }
 
+html{
+  height: 100%;
+  margin: 0;
+}
+
 body {
   font-family: Science Fair;
-  background-color: #4C495D;
+  background-color: #303C6C;
+  height: 100%;
   padding:0;
   margin:0;
 }
@@ -34,6 +40,34 @@ p{
   font-size: 14px;
 }
 
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: #303C6C;}
+#News {background-color: #303C6C;}
+#Contact {background-color: #303C6C;}
+#About {background-color: #303C6C;}
+
 .card {
   padding: 20px;
   margin-top: 20px;
@@ -55,13 +89,13 @@ p{
 
 .leftcolumn {
   float: left;
-  width: 70%;
+  width: 50%;
+  padding-left: 200px;
 }
 
 .rightcolumn {
   float: left;
-  width: 25%;
-  padding-left: 20px;
+  width: 30%;
 }
 
 .header {
